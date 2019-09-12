@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/getting-started/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-09-12T12:53:45-07:00</updated>
+  <updated>2019-09-12T13:06:38-07:00</updated>
   <id>/tag/getting-started/feed.xml</id>
 
   
@@ -586,10 +586,7 @@ Tendon vs Ligament&lt;/p&gt;
       <content type="html" xml:base="/faq">&lt;h1 id=&quot;what-does-acupuncture-do&quot;&gt;What Does Acupuncture Do?&lt;/h1&gt;
 
 &lt;h2 id=&quot;acupuncture-public-awareness-video&quot;&gt;Acupuncture Public Awareness Video&lt;/h2&gt;
-&lt;!-- 16:9 aspect ratio --&gt;
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-  &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/udak0DDgyek&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/udak0DDgyek&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;The Association of Traditional Chinese Medicine and Acupuncture of British Columbia (ATCMA) shared a public awareness video about how acupuncture can improve the quality of life of people.&lt;/p&gt;
 
