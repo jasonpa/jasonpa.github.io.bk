@@ -59,8 +59,8 @@
     <meta property="og:image" content="/assets/images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/ryu.clinic" />
     <meta property="article:author" content="https://www.facebook.com/ryu.clinic" />
-    <meta property="article:published_time" content="2018-07-01T00:00:00-07:00" />
-    <meta property="article:modified_time" content="2018-07-01T00:00:00-07:00" />
+    <meta property="article:published_time" content="2018-06-30T17:00:00-07:00" />
+    <meta property="article:modified_time" content="2018-06-30T17:00:00-07:00" />
     <meta property="article:tag" content="About" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Testimonial" />
@@ -113,7 +113,7 @@
 
 
 </head>
-<body class="home-template">
+<body class="post-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -191,11 +191,11 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  ">
+        <article class="post-full post tag-about ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 1 July 2018"> 1 July 2018</time>
+                    <time class="post-full-meta-date" datetime="30 June 2018">30 June 2018</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -346,9 +346,9 @@ $("#google-reviews").googlePlaces({
                                   
                                 
                                   
-                                    
-                                  
                                 
+                                  
+                                    
                                   
                                 
                                   
@@ -409,22 +409,22 @@ $("#google-reviews").googlePlaces({
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/2018-summer-holiday-notice">
-                <div class="post-card-image" style="background-image: url(/assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg)"></div>
+            <a class="post-card-image-link" href="/treatment-method">
+                <div class="post-card-image" style="background-image: url(/assets/images/toa-heftiba-hBLf2nvp-Yc-unsplash.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/2018-summer-holiday-notice">
+            <a class="post-card-content-link" href="/treatment-method">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">News</span>
+                                <span class="post-card-tags">Getting started</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">2018 Summer Holiday Closing Notice</h2>
+                    <h2 class="post-card-title">Treatment Method</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -456,22 +456,22 @@ $("#google-reviews").googlePlaces({
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/treatment-method">
-                <div class="post-card-image" style="background-image: url(/assets/images/toa-heftiba-hBLf2nvp-Yc-unsplash.jpg)"></div>
+            <a class="post-card-image-link" href="/service-hours-fees">
+                <div class="post-card-image" style="background-image: url(/assets/images/ales-nesetril-ex_p4AaBxbs-unsplash.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/treatment-method">
+            <a class="post-card-content-link" href="/service-hours-fees">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Getting started</span>
+                                <span class="post-card-tags">About</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Treatment Method</h2>
+                    <h2 class="post-card-title">Service Hours & Fees</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -610,6 +610,71 @@ $("#google-reviews").googlePlaces({
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
