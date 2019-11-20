@@ -73,14 +73,17 @@
     <meta property="og:site_name" content="Ryu Clinic" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Do something nice for yourself today" />
-    <meta property="og:description" content="ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호..." />
+    <meta property="og:description" content="Do something nice for yourself today. You deserve a break. Self-care is how you take your power back. There are lots of possible explanation for benefit of acupuncture and herbal medicine. But the people are not interested in the explanation of the medical approach. We already have too much about" />
     <meta property="og:url" content="/2019-10-31-you-deserve-it" />
     <meta property="og:image" content="/assets/images/mareko-tamaleaa-u29A-hrVgJU-unsplash.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/ryu.clinic" />
+    <meta property="article:author" content="https://www.facebook.com/ryu.clinic" />
+    <meta property="article:published_time" content="2019-10-31T12:55:00-07:00" />
+    <meta property="article:modified_time" content="2019-10-31T12:55:00-07:00" />
     <meta property="article:tag" content="News" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Do something nice for yourself today" />
-    <meta name="twitter:description" content="ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호..." />
+    <meta name="twitter:description" content="Do something nice for yourself today. You deserve a break. Self-care is how you take your power back. There are lots of possible explanation for benefit of acupuncture and herbal medicine. But the people are not interested in the explanation of the medical approach. We already have too much about" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/mareko-tamaleaa-u29A-hrVgJU-unsplash.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -89,8 +92,8 @@
     <meta name="twitter:data2" content="News" />
     <meta name="twitter:site" content="@ryuclinic" />
     <meta name="twitter:creator" content="@ryuclinic" />
-    <meta property="og:image:width" content="2000" />
-    <meta property="og:image:height" content="666" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
 
     <script type="application/ld+json">
 {
@@ -112,7 +115,7 @@
         "@type": "WebPage",
         "@id": "/2019-10-31-you-deserve-it"
     },
-    "description": "ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호흡기, 수면장애, 소화불량, 통증클리닉, 침치료, 포트무디"
+    "description": "Do something nice for yourself today. You deserve a break. Self-care is how you take your power back. There are lots of possible explanation for benefit of acupuncture and herbal medicine. But the people are not interested in the explanation of the medical approach. We already have too much about"
 }
     </script>
 
@@ -129,7 +132,7 @@
 
 
 </head>
-<body class="home-template">
+<body class="post-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -147,6 +150,16 @@ into the {body} of the default.hbs template -->
                 <a class="site-nav-logo" href="/"><img src="/assets/images/LOGO_W.png" alt="Ryu Clinic" /></a>
             
         
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-online-booking" role="menuitem"><a href="https://ryuclinic.janeapp.com">Online Booking</a></li>
+    <li class="nav-about" role="menuitem"><a href="/tag/about/">About</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-contact" role="menuitem"><a href="/contact/">Contact</a></li>
+    <li class="nav-news" role="menuitem"><a href="/tag/news/">News</a></li>
+</ul>
+
         
     </div>
     <div class="site-nav-right">
@@ -196,7 +209,7 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  ">
+        <article class="post-full post tag-news ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
@@ -523,6 +536,71 @@ Self-care is how you take your power back.
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
