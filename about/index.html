@@ -1,335 +1,406 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
 
-    <!-- Document Settings -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- Base Meta -->
-    <!-- dynamically fixing the title for tag/author pages -->
+<!-- begin _includes/seo.html --><title>About | Ryu Clinic</title>
+<meta name="description" content="Acupuncture &amp; Herbal Medicine in Port Moody. ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호흡기, 수면장애, 소화불량, 통증클리닉, 침치료, 포트무디">
 
 
+  <meta name="author" content="Minimalist Medicine">
 
-    <title>About</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Styles'n'Scripts -->
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    <style>.hljs { background: none; }</style>
 
-    <!--[if IE]>
-        <style>
-            p, ol, ul{
-                width: 100%;
-            }
-            blockquote{
-                width: 100%;
-            }
-        </style>
-    <![endif]-->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ryu Clinic">
+<meta property="og:title" content="About">
+<meta property="og:url" content="https://ryu.clinic/about/">
+
+
+  <meta property="og:description" content="Acupuncture &amp; Herbal Medicine in Port Moody. ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호흡기, 수면장애, 소화불량, 통증클리닉, 침치료, 포트무디">
+
+
+
+  <meta property="og:image" content="https://ryu.clinic/assets/images/LOGO-Final-Small.png">
+
+
+
+  <meta name="twitter:site" content="@ryuclinic">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="Acupuncture &amp; Herbal Medicine in Port Moody. ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호흡기, 수면장애, 소화불량, 통증클리닉, 침치료, 포트무디">
+  <meta name="twitter:url" content="https://ryu.clinic/about/">
+
+  
+    <meta name="twitter:card" content="summary">
     
-    <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="ICBC, Acupuncture, Herbal Medicine, Cupping, Pain Clinic, Rehabilitation, Acupoint Injection, Chronic Pain, Port Moody, Coquitlam, Tri-Cities, 한의원, 한약, 비염, 호흡기, 수면장애, 소화불량, 통증클리닉, 침치료, 포트무디" />
-    <link rel="shortcut icon" href="/assets/images/icon/favicon.ico" type="image/png" />
-    <link rel="canonical" href="/about/" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
+      <meta name="twitter:image" content="https://ryu.clinic/assets/images/LOGO-Final-Small.png">
+    
+  
 
-     <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="Ryu Clinic" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="# Practitioner ## Jiman Ryu, R.TCM.P., R.Ac. ![Jiman Ryu. Founder of Ryu Clinic Inc., Registered Acupuncturist, Registered TCM Practitioner](/assets/images/DSC_8593-199x300.jpg) ### Profiles {:.no_toc} - **2018** Founder and Practitioner of Ryu Clinic Community Acupuncture and TCM in Port Moody, B.C. - **2015** Obtained Registered Traditional Chinese Medicine Practitioner(R.TCM.P) in B.C. - **2015**" />
-    <meta property="og:url" content="/about/" />
-    <meta property="og:image" content="/assets/images/chris-lawton-5IHz5WhosQE-unsplash.jpg" />
-    <meta property="article:publisher" content="https://www.facebook.com/ryu.clinic" />
-    <meta property="article:author" content="https://www.facebook.com/ryu.clinic" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="# Practitioner ## Jiman Ryu, R.TCM.P., R.Ac. ![Jiman Ryu. Founder of Ryu Clinic Inc., Registered Acupuncturist, Registered TCM Practitioner](/assets/images/DSC_8593-199x300.jpg) ### Profiles {:.no_toc} - **2018** Founder and Practitioner of Ryu Clinic Community Acupuncture and TCM in Port Moody, B.C. - **2015** Obtained Registered Traditional Chinese Medicine Practitioner(R.TCM.P) in B.C. - **2015**" />
-    <meta name="twitter:url" content="/" />
-    <meta name="twitter:image" content="/assets/images/chris-lawton-5IHz5WhosQE-unsplash.jpg" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Ryu Clinic" />
-    <meta name="twitter:site" content="@ryuclinic" />
-    <meta name="twitter:creator" content="@ryuclinic" />
-    <meta property="og:image:width" content="1400" />
-    <meta property="og:image:height" content="933" />
+  
 
-    <script type="application/ld+json">
-{
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://ryu.clinic/about/">
+
+
+
+
+<script type="application/ld+json">
+  {
     "@context": "https://schema.org",
-    "@type": "Website",
-    "publisher": {
-        "@type": "Organization",
-        "name": "Ryu Clinic",
-        "logo": "/assets/images/LOGO.png"
-    },
-    "url": "/about/",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/assets/images/chris-lawton-5IHz5WhosQE-unsplash.jpg",
-        "width": 2000,
-        "height": 666
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "/about/"
-    },
-    "description": "# Practitioner ## Jiman Ryu, R.TCM.P., R.Ac. ![Jiman Ryu. Founder of Ryu Clinic Inc., Registered Acupuncturist, Registered TCM Practitioner](/assets/images/DSC_8593-199x300.jpg) ### Profiles {:.no_toc} - **2018** Founder and Practitioner of Ryu Clinic Community Acupuncture and TCM in Port Moody, B.C. - **2015** Obtained Registered Traditional Chinese Medicine Practitioner(R.TCM.P) in B.C. - **2015**"
-}
-    </script>
-
-    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
-    <script type="text/javascript">
-    ghost.init({
-    	clientId: "ghost-frontend",
-    	clientSecret: "f84a07a72b17"
-    });
-    </script> -->
-
-    <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="About" href="/feed.xml" />
+    
+      "@type": "Person",
+      "name": "Ryu Clinic Inc.",
+      "url": "https://ryu.clinic/"
+    
+  }
+</script>
 
 
-</head>
-<body class="page-template">
+  <meta name="google-site-verification" content="2z0vgw15ccv3kth2q85z1qi7supbo9" />
 
-    <div class="site-wrapper">
-        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
 
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer">
-    <div class="inner">
-        <nav class="site-nav">
-    <div class="site-nav-left">
-        
-            
-                <a class="site-nav-logo" href="/"><img src="/assets/images/LOGO_W.png" alt="Ryu Clinic" /></a>
-            
-        
-        
-            <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
-    <li class="nav-online-booking" role="menuitem"><a href="https://ryuclinic.janeapp.com">Online Booking</a></li>
-    <li class="nav-about" role="menuitem"><a href="/tag/about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
-    <li class="nav-contact" role="menuitem"><a href="/contact/">Contact</a></li>
-    <li class="nav-news" role="menuitem"><a href="/tag/news/">News</a></li>
-</ul>
 
-        
-    </div>
-    <div class="site-nav-right">
-        <div class="social-links">
-            
-                <a class="social-link social-link-fb" href="https://facebook.com/ryu.clinic" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
-</a>
-            
-            
-                <a class="social-link social-link-tw" href="https://twitter.com/ryuclinic" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
-</a>
-            
-            
-                <!-- Kakao start -->
-                <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-                <div id="plusfriend-add-button" data-plusfriend-id="_xdxcxirC" data-size="small" data-color="yellow" data-shape="round" data-support-multiple-densities="true"></div>
-                <script>
-                window.kakaoAsyncInit = function () {
-                    Kakao.PlusFriend.createAddFriendButton({
-                    container: '#plusfriend-add-button'
-                    });
-                };
-                (function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = "//developers.kakao.com/sdk/js/kakao.plusfriend.min.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'kakao-js-sdk'));
-                </script>
-                <!-- Kakao end -->            
-            
-        </div>
-        
-            
-            <iframe frameborder="0" height="28" scrolling="no" src="https://ryuclinic.janeapp.com/embed/book_online" width="177"></iframe>
-            <!-- <a class="subscribe-button" href="https://ryuclinic.janeapp.com/embed/book_online">Book Online</a> -->
-    </div>
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ryu Clinic Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
 </nav>
 
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Ryu Clinic
+          <span class="site-subtitle">Acupuncture & Herbal Medicine in Port Moody</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://ryuclinic.janeapp.com">Online Booking</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
-</header>
+  </div>
+</div>
 
-<!-- Everything inside the #post tags pulls data from the post -->
-<!-- #post -->
 
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
+    <div class="initial-content">
+      
 
-        <article class="post-full post page no-image">
 
-            <header class="post-full-header">
-                <h1 class="post-full-title">About</h1>
-            </header>
-
-            
-
-            <section class="post-full-content">
-                <!-- * TOC
-{:toc} -->
-
-<h1 id="practitioner">Practitioner</h1>
-<h2 id="jiman-ryu-rtcmp-rac">Jiman Ryu, R.TCM.P., R.Ac.</h2>
-<p><img src="/assets/images/DSC_8593-199x300.jpg" alt="Jiman Ryu. Founder of Ryu Clinic Inc., Registered Acupuncturist, Registered TCM Practitioner" /></p>
-
-<h3 class="no_toc" id="profiles">Profiles</h3>
-
-<ul>
-  <li><strong>2018</strong> Founder and Practitioner of Ryu Clinic Community Acupuncture and TCM in Port Moody, B.C.</li>
-  <li><strong>2015</strong> Obtained Registered Traditional Chinese Medicine Practitioner(R.TCM.P) in B.C.</li>
-  <li><strong>2015</strong> Practitioner of Limina Wellness in New Westminster, B.C.</li>
-  <li><strong>2013</strong> Founder and Practitioner of JimanTreatsWell Acupuncture and Herb Clinic in Coquitlam, B.C.</li>
-  <li><strong>2013</strong> Obtained Registered Acupuncturist(R.Ac) in B.C.</li>
-</ul>
-
-<h3 class="no_toc" id="education-background">Education Background</h3>
-
-<ul>
-  <li><strong>2010-2013</strong> Traditional Chinese Medicine Program at PCU college of Holistic Medicine, Canada</li>
-  <li><strong>2010-2011</strong> B.S. of Oriental Medicine &amp; Healthcare, Wonkwang Digital University, Korea</li>
-  <li><strong>2000</strong> B.S. of Computer Science, Hanyang University, Korea</li>
-</ul>
-
-<h3 class="no_toc" id="professional-membership">Professional Membership</h3>
-
-<ul>
-  <li><strong>Since 2017</strong> Member of Acupoint and Regeneration Injection Association of British Columbia <a href="http://ariabc.org">ARIABC</a></li>
-  <li><strong>Since 2015</strong> Member of Society for Acupuncture Injection Therapy (SAIT)</li>
-  <li><strong>Since 2015</strong> Registered Member of College of Traditional Chinese Medicine Practitioners of British Columbia <a href="http://ctcma.bc.ca">CTCMA</a></li>
-  <li><strong>Since 2013</strong> Member of Association of TCM and Acupuncture of BC <a href="http://atcma.org">ATCMA</a></li>
-  <li><strong>Since 2013</strong> BC Eastern Medicine Society</li>
-  <li><strong>Since 2012</strong> Registered Member of College of Traditional Chinese Medicine Acupuncturists of British Columbia <a href="http://ctcma.bc.ca">CTCMA</a></li>
-</ul>
-
-<h3 class="no_toc" id="other-experiencess">Other Experiencess</h3>
-
-<ul>
-  <li><strong>2014-2018</strong> Acupuncturist at <a href="https://www.liminawellness.com/">Limina Wellness</a>, New Westminster, BC Canada</li>
-  <li><strong>2014-2018</strong> Founder and practitioner of <a href="http://jimantreatswell.com">JimanTreatsWell Acupuncture</a>, Coquitlam, BC Canada</li>
-  <li><strong>2013-2014</strong> Dahnmudo(healing martial art) instructor at <a href="https://kushalayoga.com">Kushala Yoga</a>, Port Moody, BC Canada</li>
-  <li><strong>2007-2010</strong> Software developer at <a href="http://global.ncsoft.com/global/">NCSoft</a>, South Korea.</li>
-  <li><strong>2000-2006</strong> Software developer at <a href="http://www.handysoft.co.kr/en/">HandySoft</a>, South Korea.</li>
-</ul>
-
-            </section>
-
-        </article>
-
-    </div>
-</main>
-
-<!-- /post -->
-
-<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
-<script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
+  
+    
 
 
 
-        <!-- Previous/next page links - displayed on every page -->
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://ryu.clinic//" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">About</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/about/"><span class="nav__sub-title">About Our Clinic</span></a>
         
 
-        <!-- The footer at the very bottom of the screen -->
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">Ryu Clinic</a> &copy; 2019</section>
-                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
-                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
-                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
-                <nav class="site-footer-nav">
-                    <a href="/">Latest Posts</a>
-                    <a href="https://facebook.com/ryu.clinic" target="_blank" rel="noopener">Facebook</a>
-                    <a href="https://twitter.com/ryuclinic" target="_blank" rel="noopener">Twitter</a>
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
-                </nav>
-            </div>
-        </footer>
+        
+        <ul>
+          
+            <li><a href="/about/teams/">Our Teams</a></li>
+          
+            <li><a href="/about/insurance-coverage/">Insurance Coverage</a></li>
+          
+            <li><a href="/about/service-hours-fees/">Service Hours & Fees</a></li>
+          
+            <li><a href="/about/testimonials/">Testimonials</a></li>
+          
+            <li><a href="/about/faq/">FAQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="About">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">About
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <figure class="">
+  <img src="/assets/images/LOGO.png" alt="" />
+  
+    <figcaption>
+      
+
+    </figcaption>
+  
+</figure>
+
+<blockquote>
+  <p>Our goal is to help people to reach their goal.</p>
+</blockquote>
+
+<blockquote>
+  <p>By activating and promoting natural healing by using acupuncture, herbal medicine and more. It can not only enhance recuperative power, immunity and physical and emotional health but also improve overall function and well-being.</p>
+</blockquote>
+
+<h1 id="history">History</h1>
+<p>Established in 2013.</p>
+
+<p>Even when I worked as a software developer for 12 years before studying acupuncture and oriental medicine, I have been fascinated with ways to heal the body and mind and achieve a balanced healthy life.</p>
+
+<p>During shifting my career, I graduated from 2 different universities and college. After finishing school, I started JimanTreatsWell Acupuncture in 2013. I’ve got a top ranked Acupuncture in New Westminster in 2017 and one of the top 3 Acupuncture in Coquitlam in the same year.</p>
+
+<p>Finally, in 2018 JimanTreatsWell Acupuncture transformed into Ryu Clinic Inc. Acupuncture &amp; Herbal Medicine in Port Moody.</p>
+
+<h1 id="meet-the-business-owner">Meet the Business Owner</h1>
+<p><a href="/about/teams">Jiman Ryu. Founder of Ryu Clinic Inc.</a></p>
+
+<ul>
+  <li>12 years career as a software developer.</li>
+  <li>Graduate 2 universities and 1 college.</li>
+  <li>2 level of black belt of Dhanmudo(Healing Martial Arts)</li>
+  <li>Registered acupuncturist from 2013</li>
+  <li>Registered TCM Herbalist from 2016</li>
+  <li>Registered TCM.P from 2016</li>
+  <li>A full member of CTCMA</li>
+  <li>A full member of ATCMA</li>
+  <li>A full member of ARIABC</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
 
     </div>
 
-    <!-- The big email subscribe modal content -->
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
 
-    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
-
-
-    <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <!-- <script>
-        var maxPages = parseInt('');
-    </script>
-    <script src="/assets/js/infinitescroll.js"></script> -->
-    <!-- /endif -->
-
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
     
 
-
-    <!-- Add Google Analytics  -->
-    <!-- Google Analytics Tracking code -->
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-118747928-1', 'auto');
-  ga('send', 'pageview');
-
- </script>
-
-
-    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
     
-        <script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
+      
+        
+          <li><a href="https://twitter.com/ryuclinic" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/ryu.clinic" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
     
 
-    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
-    <!-- ghost_foot -->
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
 
-</body>
+<div class="page__footer-copyright">&copy; 2020 Ryu Clinic Inc.. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
 </html>
