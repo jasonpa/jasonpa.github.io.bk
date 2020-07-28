@@ -1,6 +1,6 @@
 var store = [{
         "title": "Self Care After AcuPoint Injections",
-        "excerpt":"Sections in this article What changes have occurred in my body as a result of the injections? What will the discomfort or pain be like afterwards? How long will post-injection soreness last? What should I do to ease discomfort after injections? Will moist heat help? Will ice help? Will massaging...","categories": ["Resources"],
+        "excerpt":"You have been given trigger point injections today. This information reviews what you can expect to feel, and reminds you of important things to do during the next few days in order to minimize your discomfort and get the best results possible from the treatment. What changes have occurred in...","categories": ["Resources"],
         "tags": ["Resources","Treatment"],
         "url": "https://ryu.clinic/resources/self-care-after-acupoint-injections/",
         "teaser": "https://ryu.clinic/assets/images/natasha-spencer-_hH0dC6A-FM-unsplash.jpg"
