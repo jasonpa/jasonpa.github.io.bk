@@ -6,13 +6,13 @@ var store = [{
         "teaser": "https://ryu.clinic/assets/images/natasha-spencer-_hH0dC6A-FM-unsplash.jpg"
       },{
         "title": "Acupoint Injection Overview",
-        "excerpt":"Sections in this article Acupoint Injection Overview Acupoint Injection Overview According to famous TCM author Qiu Maoliang‘s most influential textbook, Chinese Acupuncture and Moxibustion; acupoint injection therapy is described as …a method of injecting liquid medicine into acupoints in order to prevent and treat disease. It combines permeating and stimulating...","categories": ["Treatment"],
+        "excerpt":"Acupoint Injection Overview According to famous TCM author Qiu Maoliang‘s most influential textbook, Chinese Acupuncture and Moxibustion; acupoint injection therapy is described as …a method of injecting liquid medicine into acupoints in order to prevent and treat disease. It combines permeating and stimulating functions of needles and medicine, and can...","categories": ["Treatment"],
         "tags": ["Getting started","Treatment","Overview"],
         "url": "https://ryu.clinic/treatment/acupoint-injection-overview/",
-        "teaser": "https://ryu.clinic/assets/images/hyttalo-souza-a1p0Z7RSkL8-unsplash.jpg"
+        "teaser": null
       },{
         "title": "Prolotherapy Overview",
-        "excerpt":"Sections in this article Prolotherapy Overview The first stage is inflammation The second stage is proliferation The third stage is the remodeling phase Relevance to clinical outcomes References Prolotherapy Overview Prolotherapy, also called proliferation therapy or regenerative injection therapy is a treatment of tissue with the injection of an irritant...","categories": ["Treatment"],
+        "excerpt":"Prolotherapy, also called proliferation therapy or regenerative injection therapy is a treatment of tissue with the injection of an irritant solution into a joint space, weakened ligament, or tendon insertion to relieve pain. The term Proli is Latin for “to grow.” The most commonly injected irritant solution used is dextrose,...","categories": ["Treatment"],
         "tags": ["Getting started","Treatment","Overview"],
         "url": "https://ryu.clinic/treatment/prolotherapy-overview/",
         "teaser": "https://ryu.clinic/assets/images/ariabc.org.png"
