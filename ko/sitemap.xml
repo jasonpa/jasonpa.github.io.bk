@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://ryu.clinic/ko/icbc-%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0%EC%B9%98%EB%A3%8C/</loc>
+<loc>https://ryu.clinic/ko/healing-arts-seminar/</loc>
 <lastmod>2019-03-31T17:00:00-07:00</lastmod>
 </url>
 <url>
@@ -25,6 +25,9 @@
 </url>
 <url>
 <loc>https://ryu.clinic/ko/google-maps/</loc>
+</url>
+<url>
+<loc>https://ryu.clinic/ko/</loc>
 </url>
 <url>
 <loc>https://ryu.clinic/ko/</loc>

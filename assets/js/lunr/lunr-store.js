@@ -53,12 +53,6 @@ var store = [{
         "url": "https://ryu.clinic/why-is-pain-killer-not-effective-for-chronic-pain/",
         "teaser": null
       },{
-        "title": "무료 미술 힐링강의 (칼라와 에너지)",
-        "excerpt":"무료 미술 힐링강의 (칼라와 에너지) 1 “칼라와 그림이 우리에게 얼마나 큰 영향력을 갖고 있는지 알아보는 시간입니다.” “언제 사랑의 감정을 느껴보셨습니까?” 새로운 그림의 세계를 알게 되는 경이로움과 충만함, 그리고 그림과 나누는 포근한 사랑의 시간이 앞으로 계속 밴쿠버에서 이어집니다. 강의 주제는 계속 바뀝니다. 그림과 파동 그림과 감정이 몸에 미치는 영향 그림에 담긴...","categories": [],
-        "tags": ["News"],
-        "url": "https://ryu.clinic/healing-arts-seminar/",
-        "teaser": "https://ryu.clinic/assets/images/event-1.jpg"
-      },{
         "title": "Enjoy the Labour Day long weekend",
         "excerpt":"In observance of Labor Day, our office will be closed on Monday (Sep.2)  ","categories": [],
         "tags": ["News"],

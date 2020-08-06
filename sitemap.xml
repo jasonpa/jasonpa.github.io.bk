@@ -37,10 +37,6 @@
 <lastmod>2018-08-02T17:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>https://ryu.clinic/healing-arts-seminar/</loc>
-<lastmod>2019-03-31T17:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>https://ryu.clinic/2018-labour-day-notice/</loc>
 <lastmod>2019-09-01T17:00:00-07:00</lastmod>
 </url>
@@ -78,6 +74,9 @@
 <loc>https://ryu.clinic/</loc>
 </url>
 <url>
+<loc>https://ryu.clinic/</loc>
+</url>
+<url>
 <loc>https://ryu.clinic/about/insurance-coverage/</loc>
 </url>
 <url>
@@ -94,5 +93,11 @@
 </url>
 <url>
 <loc>https://ryu.clinic/posts/</loc>
+</url>
+<url>
+<loc>https://ryu.clinic/page2/</loc>
+</url>
+<url>
+<loc>https://ryu.clinic/page3/</loc>
 </url>
 </urlset>
