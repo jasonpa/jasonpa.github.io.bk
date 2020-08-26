@@ -76,4 +76,10 @@ var store = [{
         "tags": ["News"],
         "url": "https://ryu.clinic/2019-suter-brook-winter-festival/",
         "teaser": "https://ryu.clinic/assets/images/2019-winter-festival.jpg"
+      },{
+        "title": "Welcome to our new RMT Oliviah",
+        "excerpt":"Oliviah, R.Ac, R.M.T. She has been practicing many years of experience in Acupuncture. Recently she got a new license as a Registered Massage Therapist. She is registered in CMTBC1. She has a passion for massage, Tui-na, and Acupressure before so she decided to add a new title. She understands different conditions...","categories": [],
+        "tags": ["News"],
+        "url": "https://ryu.clinic/welcome-to-our-new-rmt-oliviah/",
+        "teaser": "https://ryu.clinic/assets/images/jpg"
       }]
