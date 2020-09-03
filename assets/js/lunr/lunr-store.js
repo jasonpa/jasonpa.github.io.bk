@@ -81,5 +81,17 @@ var store = [{
         "excerpt":"Oliviah, R.Ac, R.M.T. She has been practicing many years of experience in Acupuncture. Recently she got a new license as a Registered Massage Therapist. She is registered in CMTBC1. She has a passion for massage, Tui-na, and Acupressure before so she decided to add a new title. She understands different conditions...","categories": [],
         "tags": ["News"],
         "url": "https://ryu.clinic/welcome-to-our-new-rmt-oliviah/",
-        "teaser": "https://ryu.clinic/assets/images/jpg"
+        "teaser": "https://ryu.clinic/assets/images/oliviah.jpg"
+      },{
+        "title": "6 Things To Know About Massage Therapy for Health Purposes",
+        "excerpt":"6 Things To Know About Massage Therapy for Health Purposes 1 The term “massage therapy” includes many techniques, and the type of massage given usually depends on your needs and physical condition. In general, massage therapists work on muscle and other soft tissue to help you feel better. A lot...","categories": ["Treatment"],
+        "tags": ["Getting started","Treatment"],
+        "url": "https://ryu.clinic/treatment/6-things-to-know-about-massage-therapy-for-health-purposes/",
+        "teaser": "https://source.unsplash.com/CLiwQXx7kT8"
+      },{
+        "title": "Massage Therapy Overview",
+        "excerpt":"Massage Therapy: What You Need To Know 1 What is massage therapy used for? Massage therapy is used to help manage a health condition or enhance wellness. It involves manipulating the soft tissues of the body. Massage has been practiced in most cultures, both Eastern and Western, throughout human history,...","categories": ["Treatment"],
+        "tags": ["Getting started","Treatment"],
+        "url": "https://ryu.clinic/treatment/massage-therapy-overview/",
+        "teaser": "https://source.unsplash.com/CLiwQXx7kT8"
       }]
