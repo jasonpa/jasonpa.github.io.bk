@@ -84,9 +84,9 @@ var store = [{
         "teaser": "https://ryu.clinic/assets/images/oliviah.jpg"
       },{
         "title": "6 Things To Know About Massage Therapy for Health Purposes",
-        "excerpt":"6 Things To Know About Massage Therapy for Health Purposes 1 The term “massage therapy” includes many techniques, and the type of massage given usually depends on your needs and physical condition. In general, massage therapists work on muscle and other soft tissue to help you feel better. A lot...","categories": ["Treatment"],
+        "excerpt":"6 Things To Know About Massage Therapy for Health Purposes 1 The term “massage therapy” includes many techniques, and the type of massage given usually depends on your needs and physical condition. In general, massage therapists work on muscle and other soft tissue to help you feel better. A lot...","categories": [],
         "tags": ["Getting started","Treatment"],
-        "url": "https://ryu.clinic/treatment/6-things-to-know-about-massage-therapy-for-health-purposes/",
+        "url": "https://ryu.clinic/6-things-to-know-about-massage-therapy-for-health-purposes/",
         "teaser": "https://source.unsplash.com/CLiwQXx7kT8"
       },{
         "title": "Massage Therapy Overview",
