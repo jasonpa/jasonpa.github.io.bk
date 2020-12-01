@@ -66,7 +66,7 @@ var store = [{
         "teaser": "https://ryu.clinic/assets/images/mareko-tamaleaa-u29A-hrVgJU-unsplash.jpg"
       },{
         "title": "ICBC Motor Vehicle Accident Assessment and Treatment",
-        "excerpt":"We do Direct Billing ICBC 1 No doctor's referral required 2 No upfront payment required 3 No extra charges at our clinic ICBC policy changed as of April 1, 2019 From April 1, 2019, the ICBC ICBC Motor Vehicle Accident (MVA) Treatment System will be changed.1 2 In the future,...","categories": [],
+        "excerpt":"We do Direct Billing ICBC No doctor’s referral required No upfront payment required No extra charges at our clinic ICBC policy changed as of April 1, 2019 From April 1, 2019, the ICBC ICBC Motor Vehicle Accident (MVA) Treatment System will be changed.1 2 In the future, if you come...","categories": [],
         "tags": ["About","News"],
         "url": "https://ryu.clinic/icbc-motor-vehicle-accident-assessment-and-treatment/",
         "teaser": "https://ryu.clinic/assets/images/icbc_logo.svg"
