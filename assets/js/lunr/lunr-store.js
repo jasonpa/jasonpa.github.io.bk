@@ -30,7 +30,7 @@ var store = [{
         "teaser": "https://ryu.clinic/assets/images/clem-onojeghuo-zlABb6Gke24-unsplash.jpg"
       },{
         "title": "Treatment Method",
-        "excerpt":"Acupoint Injection Therapy Auricular Acupuncture The ear is a microsystem which reflects the entire body. Conditions affecting the physical, mental or emotional health of the patient can be treatable by stimulating the surface of the ear with a small seed. It is also called auricular acupuncture. Cupping Cupping is a...","categories": ["Treatment"],
+        "excerpt":"Auricular Acupuncture The ear is a microsystem which reflects the entire body. Conditions affecting the physical, mental or emotional health of the patient can be treatable by stimulating the surface of the ear with a small seed. It is also called auricular acupuncture. Cupping Cupping is a therapy designed to...","categories": ["Treatment"],
         "tags": ["Getting started","Treatment"],
         "url": "https://ryu.clinic/treatment/treatment-method/",
         "teaser": null
