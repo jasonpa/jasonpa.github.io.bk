@@ -1,1 +1,9 @@
-Sitemap: https://ryu.clinic/ko/sitemap.xml
+# Group 1
+#User-agent: Googlebot
+#Disallow: /draft/
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://ryu.clinic/sitemap.xml
