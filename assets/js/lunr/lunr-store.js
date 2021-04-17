@@ -66,7 +66,7 @@ var store = [{
         "teaser": "https://ryu.clinic/assets/images/mareko-tamaleaa-u29A-hrVgJU-unsplash.jpg"
       },{
         "title": "ICBC Motor Vehicle Accident Assessment and Treatment",
-        "excerpt":"We do Direct Billing ICBC No doctor’s referral required No upfront payment required No extra charges at our clinic ICBC policy changed as of April 1, 2019 From April 1, 2019, the ICBC ICBC Motor Vehicle Accident (MVA) Treatment System will be changed.1 2 In the future, if you come...","categories": [],
+        "excerpt":"We do Direct Billing ICBC 1 No doctor's referral required 2 No upfront payment required 3 No extra charges at our clinic ICBC policy changed as of April 1, 2019 From April 1, 2019, the ICBC ICBC Motor Vehicle Accident (MVA) Treatment System will be changed.1 2 In the future,...","categories": [],
         "tags": ["About","News"],
         "url": "https://ryu.clinic/icbc-motor-vehicle-accident-assessment-and-treatment/",
         "teaser": "https://ryu.clinic/assets/images/icbc_logo.svg"
@@ -94,10 +94,4 @@ var store = [{
         "tags": ["Getting started","Treatment"],
         "url": "https://ryu.clinic/treatment/massage-therapy-overview/",
         "teaser": "https://source.unsplash.com/CLiwQXx7kT8"
-      },{
-        "title": "Protocol for Psychiatric Disorders",
-        "excerpt":"3 Steps approach We have 3 steps approaching method for diagnosis of symptoms. We decide a formula through our protocol. Read personal characteristic and emotional status. Check sleeping quality and digestion &amp; bowl movement conditions. Identify the trigger episode that caused the mental problem, read the propensity and approaches by...","categories": ["Treatment"],
-        "tags": ["Getting started","Treatment"],
-        "url": "https://ryu.clinic/treatment/protocol-for-psychiatric-disorders/",
-        "teaser": "https://source.unsplash.com/"
       }]
