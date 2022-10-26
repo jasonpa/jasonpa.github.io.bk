@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -14,6 +14,7 @@
 
 
   <meta name="author" content="Jiman Ryu by Ryu Clinic">
+  
 
 
 <meta property="og:type" content="website">
@@ -79,10 +80,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ryu Clinic Port Moody Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ryu Clinic Port Moody Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,22 +97,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -147,7 +137,6 @@
 
   <body class="layout--tags">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -184,9 +173,7 @@
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -511,6 +498,7 @@
 </ul>
 
 
+
   
     
   
@@ -536,9 +524,7 @@
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -547,13 +533,15 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        8 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Massage Therapy: What You Need To Know 1
 
@@ -584,9 +572,7 @@
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -595,13 +581,15 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">6 Things To Know About Massage Therapy for Health Purposes 1
 The term “massage therapy” includes many techniques, and the type of massage given usually depen...</p>
@@ -624,9 +612,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -635,13 +621,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        2 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Sections in this article
 
@@ -665,9 +653,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -676,13 +662,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">
 
@@ -706,9 +694,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -717,13 +703,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        5 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Here is a good article for prepare and receive acupuncture from Wiki How
 
@@ -747,9 +735,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -758,13 +744,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Sections in this article
 
@@ -788,9 +776,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -799,13 +785,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        3 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Prolotherapy, also called proliferation therapy or regenerative injection therapy is a treatment of tissue with the injection of an irritant solution into a ...</p>
   </article>
@@ -827,9 +815,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -838,13 +824,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        2 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Acupoint Injection Overview
 
@@ -903,9 +891,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -914,13 +900,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        8 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Massage Therapy: What You Need To Know 1
 
@@ -951,9 +939,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -962,13 +948,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">6 Things To Know About Massage Therapy for Health Purposes 1
 The term “massage therapy” includes many techniques, and the type of massage given usually depen...</p>
@@ -991,9 +979,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1002,13 +988,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">
 
@@ -1032,9 +1020,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1043,13 +1029,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        3 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Prolotherapy, also called proliferation therapy or regenerative injection therapy is a treatment of tissue with the injection of an irritant solution into a ...</p>
   </article>
@@ -1071,9 +1059,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1082,13 +1068,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        2 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Acupoint Injection Overview
 
@@ -1113,9 +1101,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1124,13 +1110,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        6 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">You have been given trigger point injections today. This information reviews what you can expect to feel, and reminds you of important things to do during th...</p>
   </article>
@@ -1168,9 +1156,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1179,13 +1165,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Oliviah, R.Ac, R.M.T.
 
@@ -1209,9 +1197,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1220,13 +1206,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">We are sponsoring the 2019 Suter Brook Winter Festival.
 
@@ -1251,9 +1239,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1262,13 +1248,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">We do Direct Billing ICBC
 
@@ -1292,9 +1280,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1303,23 +1289,21 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">
   
-  
-    
       This is a figure caption.
 
     
-  
-
 
 </p>
   </article>
@@ -1341,9 +1325,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1352,13 +1334,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">In observance of Labor Day, our office will be closed on Monday (Sep.2)
 </p>
@@ -1381,9 +1365,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1392,13 +1374,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Please be informed that we will be closed from July 23 to 28 due to the Summer Holiday Closing. Inquiries during holidays will be reply after July 30. Thank ...</p>
   </article>
@@ -1480,9 +1464,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1491,13 +1473,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        3 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Prolotherapy, also called proliferation therapy or regenerative injection therapy is a treatment of tissue with the injection of an irritant solution into a ...</p>
   </article>
@@ -1519,9 +1503,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1530,13 +1512,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        2 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Acupoint Injection Overview
 
@@ -1571,9 +1555,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1582,13 +1564,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">We do Direct Billing ICBC
 
@@ -1612,9 +1596,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1623,13 +1605,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">We have 1.5 hours free underground parking. Parking for all patrons on the P1 level of the parkade will be free for the first 90 minutes, but will require ve...</p>
   </article>
@@ -1665,9 +1649,7 @@ The term “massage therapy” includes many techniques, and the type of massage
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -1676,13 +1658,15 @@ The term “massage therapy” includes many techniques, and the type of massage
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        6 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">You have been given trigger point injections today. This information reviews what you can expect to feel, and reminds you of important things to do during th...</p>
   </article>
@@ -1748,7 +1732,9 @@ The term “massage therapy” includes many techniques, and the type of massage
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 

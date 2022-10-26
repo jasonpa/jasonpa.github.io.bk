@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -14,6 +14,9 @@
 
 
   <meta name="author" content="Jiman Ryu by Ryu Clinic">
+  
+  <meta property="article:author" content="Jiman Ryu by Ryu Clinic">
+  
 
 
 <meta property="og:type" content="article">
@@ -81,10 +84,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/ko/feed.xml" type="application/atom+xml" rel="alternate" title="Ryu Clinic Port Moody Feed">
+
+  <link href="/ko/feed.xml" type="application/atom+xml" rel="alternate" title="Ryu Clinic Port Moody Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,22 +101,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/ko/assets/css/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -149,7 +141,6 @@
 
   <body class="layout--single">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -186,9 +177,7 @@
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -363,9 +352,7 @@
 </h1>
           
 
-
   <p class="page__meta">
-
     
 
     
@@ -374,13 +361,15 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
         </header>
       
@@ -390,13 +379,7 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#무료-미술-힐링강의-칼라와-에너지-">무료 미술 힐링강의 (칼라와 에너지) 1</a></li>
-  <li><a href="#시간-매주-월-토-2시-4시">시간: 매주 월, 토 2시-4시</a></li>
-  <li><a href="#장소-ryu-clinic">장소: Ryu Clinic</a></li>
-  <li><a href="#예약과-문의-소화-마리아-7788668770">예약과 문의: 소화 마리아 778.866.8770</a></li>
-  <li><a href="#references">References</a></li>
-</ul>
+              <ul class="toc__menu"><li><a href="#무료-미술-힐링강의-칼라와-에너지-">무료 미술 힐링강의 (칼라와 에너지) 1</a></li><li><a href="#시간-매주-월-토-2시-4시">시간: 매주 월, 토 2시-4시</a></li><li><a href="#장소-ryu-clinic">장소: Ryu Clinic</a></li><li><a href="#예약과-문의-소화-마리아-7788668770">예약과 문의: 소화 마리아 778.866.8770</a></li><li><a href="#references">References</a></li></ul>
 
             </nav>
           </aside>
@@ -439,15 +422,11 @@
 
 
   
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      
-      
       <a href="/ko/tags/#news" class="page__taxonomy-item" rel="tag">News</a>
     
     </span>
@@ -457,6 +436,7 @@
 
 
         
+
   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-31T17:00:00-07:00">March 31, 2019</time></p>
 
 
@@ -514,9 +494,7 @@
     </h2>
     
 
-
   <p class="page__meta">
-
     
 
     
@@ -525,13 +503,15 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        less than 1 minute read
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
     
-
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">ICBC policy changed as of April 1, 2019
 
@@ -586,7 +566,9 @@
       
     
 
-    <li><a href="/ko/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/ko/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
