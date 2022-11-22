@@ -100,4 +100,10 @@ var store = [{
         "tags": ["News"],
         "url": "/news/expanding-new-hire-hiring/",
         "teaser": null
+      },{
+        "title": "Job posting RMT",
+        "excerpt":"We are looking for a new member of our awesome team Ryu Clinic is an expanding holistic health clinic in Port Moody with the highest client satisfaction, offering a full-time/part-time RMT to join the team.   Ryu Clinic believes in helping our clients by correcting the balance of your body and...","categories": ["News"],
+        "tags": ["News"],
+        "url": "/news/job-posting-rmt/",
+        "teaser": null
       }]
