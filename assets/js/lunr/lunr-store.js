@@ -94,4 +94,10 @@ var store = [{
         "tags": ["Getting started","Treatment"],
         "url": "/treatment/massage-therapy-overview/",
         "teaser": "https://source.unsplash.com/CLiwQXx7kT8"
+      },{
+        "title": "Expanding / New Hire / Hiring",
+        "excerpt":"A new updatge of our clinic 2022 We are excited to announce that we are expanding due to our remarkable growth over the last four years!  We hired two new receptionists and are currently hiring multiple Registered Massage Therapists (RMT).    Please welcome Jenny and Susan to the Ryu Clinic team!...","categories": ["News"],
+        "tags": ["News"],
+        "url": "/news/expanding-new-hire-hiring/",
+        "teaser": null
       }]
