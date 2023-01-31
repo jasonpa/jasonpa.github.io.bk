@@ -106,4 +106,10 @@ var store = [{
         "tags": ["News"],
         "url": "/news/job-posting-rmt/",
         "teaser": null
+      },{
+        "title": "Chinese Herbal Medicine for Common Cold",
+        "excerpt":"Overview Chinese herbal medicine has been used for centuries to treat the common cold, which is caused by a viral infection. Traditional Chinese medicine (TCM) practitioners use a combination of herbs and other natural substances to support the body’s immune system, reduce symptoms, and speed up recovery. The common cold...","categories": ["Treatment","Education"],
+        "tags": ["Getting started","Treatment","Herbal Medicine"],
+        "url": "/treatment/education/chinese-herbal-medicine-for-common-cold/",
+        "teaser": null
       }]
