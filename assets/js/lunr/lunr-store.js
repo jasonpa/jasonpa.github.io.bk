@@ -112,4 +112,10 @@ var store = [{
         "tags": ["Getting started","Treatment","Herbal Medicine"],
         "url": "/treatment/education/chinese-herbal-medicine-for-common-cold/",
         "teaser": null
+      },{
+        "title": "Chinese Herbal Medicine ANS Regulation",
+        "excerpt":"Traditional Chinese Medicine (TCM) has been used for thousands of years to promote wellness and treat a variety of health conditions. One of the key concepts in TCM is the idea of balance, specifically with regards to the body’s qi (pronounced “chee”), which is the energy that flows through all...","categories": ["Treatment"],
+        "tags": ["Treatment","Herbal Medicine"],
+        "url": "/treatment/herbal-medicine-for-autonomic-nervous-system/",
+        "teaser": null
       }]
